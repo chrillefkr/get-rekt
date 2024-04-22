@@ -1,5 +1,5 @@
 Name:           get-rekt
-Version:        0.0.1
+Version:        0.0.2
 Release:        1%{?dist}
 Summary:        Do not install this. It's really bad. Don't.
 
@@ -32,5 +32,8 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Mon Apr 22 2024 Christopher Janzon <christopher.janzon@iver.se> 0.0.2-1
+- new package built with tito
+
 * Mon Apr 22 2024 Christopher Janzon <christopher.janzon@iver.se>
 - 
